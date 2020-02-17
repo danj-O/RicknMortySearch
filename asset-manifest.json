@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ricknmorty/static/css/main.e6e5640c.chunk.css",
-    "main.js": "/ricknmorty/static/js/main.181d7c2d.chunk.js",
-    "main.js.map": "/ricknmorty/static/js/main.181d7c2d.chunk.js.map",
-    "runtime-main.js": "/ricknmorty/static/js/runtime-main.8159905f.js",
-    "runtime-main.js.map": "/ricknmorty/static/js/runtime-main.8159905f.js.map",
-    "static/js/2.5cc86e8a.chunk.js": "/ricknmorty/static/js/2.5cc86e8a.chunk.js",
-    "static/js/2.5cc86e8a.chunk.js.map": "/ricknmorty/static/js/2.5cc86e8a.chunk.js.map",
-    "index.html": "/ricknmorty/index.html",
-    "precache-manifest.5d1ce0b28add7565808b669b20b8b19e.js": "/ricknmorty/precache-manifest.5d1ce0b28add7565808b669b20b8b19e.js",
-    "service-worker.js": "/ricknmorty/service-worker.js",
-    "static/css/main.e6e5640c.chunk.css.map": "/ricknmorty/static/css/main.e6e5640c.chunk.css.map",
-    "static/js/2.5cc86e8a.chunk.js.LICENSE.txt": "/ricknmorty/static/js/2.5cc86e8a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ricknmorty/static/media/background.dbb26081.jpg"
+    "main.css": "/RicknMortySearch/static/css/main.9cb54f1f.chunk.css",
+    "main.js": "/RicknMortySearch/static/js/main.2c37f224.chunk.js",
+    "main.js.map": "/RicknMortySearch/static/js/main.2c37f224.chunk.js.map",
+    "runtime-main.js": "/RicknMortySearch/static/js/runtime-main.383e1976.js",
+    "runtime-main.js.map": "/RicknMortySearch/static/js/runtime-main.383e1976.js.map",
+    "static/js/2.b1f23f87.chunk.js": "/RicknMortySearch/static/js/2.b1f23f87.chunk.js",
+    "static/js/2.b1f23f87.chunk.js.map": "/RicknMortySearch/static/js/2.b1f23f87.chunk.js.map",
+    "index.html": "/RicknMortySearch/index.html",
+    "precache-manifest.e9c88821d2f414c08bab76add6639890.js": "/RicknMortySearch/precache-manifest.e9c88821d2f414c08bab76add6639890.js",
+    "service-worker.js": "/RicknMortySearch/service-worker.js",
+    "static/css/main.9cb54f1f.chunk.css.map": "/RicknMortySearch/static/css/main.9cb54f1f.chunk.css.map",
+    "static/js/2.b1f23f87.chunk.js.LICENSE.txt": "/RicknMortySearch/static/js/2.b1f23f87.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/RicknMortySearch/static/media/background.dbb26081.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8159905f.js",
-    "static/js/2.5cc86e8a.chunk.js",
-    "static/css/main.e6e5640c.chunk.css",
-    "static/js/main.181d7c2d.chunk.js"
+    "static/js/runtime-main.383e1976.js",
+    "static/js/2.b1f23f87.chunk.js",
+    "static/css/main.9cb54f1f.chunk.css",
+    "static/js/main.2c37f224.chunk.js"
   ]
 }
