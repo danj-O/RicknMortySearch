@@ -1,26 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from 'styled-components'
 import './App.css';
+import CardList from './components/CardList'
+import SearchBar from './components/SearchBar'
+import Header from './components/Header'
+import ErrorBoundary from './components/ErrorBoundary'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Top = styled.div`
+  background: rgba(76, 175, 80, 0.5);
+`;
+
+class Main extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      characters: [],
+      searchfield: ''
+    }
+  }
+  componentDidMount(){
+    fetch('https://rickandmortyapi.com/api/character/')
+        .then (response => response.json())
+        .then (data => this.setState({characters: data.results}))
+  }
+
+  onSearchChange = (event) => {
+    this.setState({searchfield: event.target.value})
+  }
+
+  render(){
+    const { characters, searchfield } = this.state;
+    const filteredCharacters = characters.filter(character => {
+      return character.name.toLowerCase().includes(searchfield.toLowerCase());
+        })
+    // console.log(this.state.characters)
+    return (
+      <div className="App">
+        <Top>
+          <Header />
+          <SearchBar searchChange = {this.onSearchChange}/>
+        </Top>
+        <ErrorBoundary>
+          <CardList characters = {filteredCharacters}/>
+        </ErrorBoundary>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default Main;
