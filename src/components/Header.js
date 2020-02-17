@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Title = styled.div`
   display: flex;
-  padding: 20px;
+  padding-top: 20px;
   justify-content: center;
   color: white;
 `;

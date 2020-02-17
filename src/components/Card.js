@@ -7,18 +7,18 @@ const Box = styled.div`
   margin: 20px;
   width: 220px;
   color: palevioletred;
-  box-shadow: black 1px 1px 5px 0px;
+  box-shadow: white 0px 0px 0px 6px;
   background: white;
-  border-radius: 5px;
+  border-radius: 15px;
 `;
 const Name = styled.h2`
-  max-width: 80%;
-  padding-left: 10px;
+  /* max-width: 80%; */
+  /* padding-left: 10px; */
   padding: 5px;
 `;
 const Sub = styled.p`
   padding: 5px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 
 `;
 const Image = styled.img`

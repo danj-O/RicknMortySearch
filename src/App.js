@@ -7,7 +7,9 @@ import Header from './components/Header'
 import ErrorBoundary from './components/ErrorBoundary'
 
 const Top = styled.div`
-  background: rgba(76, 175, 80, 0.5);
+  background: rgba(76, 175, 80, 0.9);
+  box-shadow: rgba(76, 175, 80, 0.9) 0px 0px 3px 6px;
+
 `;
 
 class Main extends React.Component {
